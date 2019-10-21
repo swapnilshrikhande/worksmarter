@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Productivity Tools - Work Smart </title> 
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Work Smarter</h2>
+					<p>
+						Will you not like to go home early 
+						<li>to watch that one extra GOT episode ?</li>
+						<li>to spent time with your family ?</li>
+					</p>
+				</section>
+				<section>
+					<ul>
+						<img src="img/now_lunch.jpg">
+						</img>
+					</ul>
+				</section>
+				<section>
+					<h2>Where do we spend most of our time ?</h2>
+					<ul>
+						<img src="img/sleeping_at_computer.png">
+						</img>
+					</ul>
+				</section>
+				<section>
+					<h2>Key Areas</h2>
+					<ul>
+						<li>
+							Hours spent on noisy internet for solutions
+						</li>
+						<li>
+							Browsing code
+						</li>
+						<li>
+							Retrieving lost code
+						</li>
+						<li>
+							Dealing with syntactic dragons 
+						</li>
+						<li>
+							Formatting code 
+						</li>	
+					</ul>
+				</section>
+				<section>
+					<h2>Searching Solutions</h2>
+					<ul>
+						<li>
+							Code Search - vscode-snippet
+							<ul>
+								<li>Add a comment</li>
+								<li>Search solutions</li>
+								<li>Select the solution</li>
+								<li><code>Ctrl + Shift + s</code></li>
+							</ul>
+						</li>
+					</ul>
+				</section>		
+				<section>
+					<h2>Browsing Code</h2>
+					<ul>
+						<li>
+							Last edit location across project
+							<ul>
+								<li><code> Ctrl + k + q </code></li>
+							</ul>
+						</li>
+						<li>
+							Select block 
+							<ul>
+							<li><code>Shift + Alt + right-arrow or left-arrow  </code></li>
+							</ul>
+						</li>
+						<li>
+							Copying block of code  
+							<ul>
+							<li><code>Shift + Alt + Up or Down arrow key  </code></li>
+							</ul>
+						</li>
+						<li>
+							Goto method definition  
+							<ul>
+							<li><code>:Ctrl + F12    </code></li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Repeated Code</h2>
+					<ul>
+						<li>
+							Emmet 
+						</li>
+						<!-- <li>
+							Need clarification on Snippet because its already added above. 
+						</li> -->
+						
+					</ul>
+				</section>
+				
+				<section>
+						<h2>Local File History</h2>
+						<ul>
+							<li>
+								Local History  
+							</li>
+						</ul>
+				</section>
+				<section>
+						<h2>Formatting</h2>
+						<ul>
+							<li>
+								Prettifier 
+							</li>
+						</ul>
+				</section>
+				<section>
+						<h2>Code Review for silly mistakes / Static code analysis</h2>
+						<ul>
+							<li>Lints</li>
+							<li>Apex PMD</li>
+						</ul>
+				</section>
+				
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
