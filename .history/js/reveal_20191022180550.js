@@ -2195,9 +2195,7 @@
 		}
 
 	}
-	//TODO delete
-	//FIXME delete
-	//REVIEW delete
+
 	/**
 	 * Applies JavaScript-controlled layout rules to the
 	 * presentation.
@@ -5565,6 +5563,7 @@
 	 *
 	 * @param {object} event
 	 */
+	@REVIEW
 	function onOverviewSlideClicked(event) {
 
 		// TODO There's a bug here where the event listeners are not

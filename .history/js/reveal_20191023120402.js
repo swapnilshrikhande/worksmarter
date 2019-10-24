@@ -2195,9 +2195,7 @@
 		}
 
 	}
-	//TODO delete
-	//FIXME delete
-	//REVIEW delete
+	//todo delete
 	/**
 	 * Applies JavaScript-controlled layout rules to the
 	 * presentation.

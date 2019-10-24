@@ -2195,9 +2195,7 @@
 		}
 
 	}
-	//TODO delete
-	//FIXME delete
-	//REVIEW delete
+	//todo delete
 	/**
 	 * Applies JavaScript-controlled layout rules to the
 	 * presentation.
@@ -5567,7 +5565,7 @@
 	 */
 	function onOverviewSlideClicked(event) {
 
-		// TODO There's a bug here where the event listeners are not
+		// TOdO There's a bug here where the event listeners are not
 		// removed after deactivating the overview.testMe
 		if (eventsAreBound &&
 			isOverview()
